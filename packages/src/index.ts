@@ -1,1 +1,2 @@
-export const test = (str?: string) => console.log(str ?? 'test')
+export * from './isIOS'
+export * from './isWindows'
